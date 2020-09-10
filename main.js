@@ -16,7 +16,8 @@ const { cookieListValKey } = require("./config"); //配置文件
 (async () => {
   //延迟执行签到
   const setTimeSign = async (userinfo, index) => {
-    // await sleep(getRandom(100000, 300000));
+    // 随机
+    await sleep(getRandom(100000, 300000));
 
     // 执行签到
     if (userinfo.type == "smzdm") {
